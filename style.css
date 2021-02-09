@@ -8,8 +8,57 @@ body {
   margin: 0;
   padding: 0;
 }
-header {
-	color: red
+header, main {
+	background-color: darkgray;
+	/* padding-bottom: 40px; */
 }
-
+.max-width-wrapper {
+	width: 100%;
+	background-color: white;
+}
+header > div {
+	border-bottom: grey 5px solid;
+}
+main > .max-width-wrapper {
+	background-color: darkgray;
+	padding-top: 40px;
+}
+.intro-chunk {
+	/* margin: 60px auto 40px auto;
+	min-width: 200px;
+	max-width: 300px;
+	padding: 0 20px; */
+	max-width: 500px;
+	margin: 60px auto 40px auto;
+}
+.intro-chunk > * {
+	min-width: 200px;
+	max-width: 300px;
+	padding: 0 10px;
+}
+p > strong {
+	color: green;
+}
+.title {
+	color: black;
+}
+.card {
+	margin: 20px auto 40px auto;
+	background-color: white;
+	max-width: 500px;
+	border-bottom: grey 5px solid;
+	padding: 5px 20px 40px 20px;
+}
+.indented-heading {
+	color: black;
+	background-color: gold;
+	border-bottom: peru 5px solid;
+	width: fit-content;
+	padding: 20px 30px;
+	margin-left: -30px;
+	margin-top: 0px;
+}
+main {
+	padding-bottom: 20px;
+}
 /* Add styles here! */
